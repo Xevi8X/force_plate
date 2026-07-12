@@ -3,7 +3,7 @@ import struct
 from enum import IntEnum
 from pymodbus.client import ModbusSerialClient
 
-from modbus_config import ModbusConfig
+from .modbus_config import ModbusConfig
 
 class Register(IntEnum):
     # Total weight (32-bit signed, low/high word pair)
